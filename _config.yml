@@ -12,8 +12,9 @@ description: > # this means to ignore newlines until "baseurl:"
   Simple beginnings in the journey of code.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://smclark86.github.io" # the base hostname & protocol for your site
-twitter_username: smclark_86
+twitter_username: sm_clark86
 github_username:  smclark86
 
 # Build settings
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
